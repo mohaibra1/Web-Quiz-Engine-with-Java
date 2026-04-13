@@ -10,6 +10,7 @@ files:
     visible: true
     learner_created: false
   - name: test/tests/WebQuizEngineTest.java
+    visible: true
     learner_created: false
   - name: src/engine/Quizzes.java
     visible: true
