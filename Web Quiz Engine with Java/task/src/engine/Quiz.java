@@ -1,20 +1,25 @@
 package engine;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import jakarta.validation.constraints.*;
 
 import java.util.List;
+
 
 public class Quiz {
 
     private Integer id;
+    @NotBlank
     private String title;
+    @NotBlank
     private String text;
+    @NotEmpty
+    @Size(min=2)
     private List<String> options;
-    private Integer answer;
+
+    private List<Integer> answer;
 
     // getters & setters
-
     public Integer getId() { return id; }
     public void setId(Integer id) { this.id = id; }
 
@@ -28,6 +33,8 @@ public class Quiz {
     public void setOptions(List<String> options) { this.options = options; }
 
     @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
-    public Integer getAnswer() { return answer; }
-    public void setAnswer(Integer answer) { this.answer = answer; }
+    public List<Integer> getAnswer() { return answer; }
+    public void setAnswer(List<Integer> answer) {
+        this.answer = answer;
+    }
 }
