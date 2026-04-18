@@ -15,28 +15,23 @@ public class GlobalExceptionHandler {
 
     @ExceptionHandler(ResourcesNotFoundException.class)
     public ResponseEntity<Map<String, Object>> handleResourceNotFound(ResourcesNotFoundException ex) {
-//        Map<String, Object> error = new HashMap<>();
-//        error.put("timestamp", LocalDateTime.now());
-//        error.put("status", HttpStatus.NOT_FOUND.value());
-//        error.put("error", "Not Found");
-//        error.put("message", ex.getMessage());
-        return new ResponseEntity<>(returnMapObject(ex), HttpStatus.NOT_FOUND);
+        Map<String, Object> error = new HashMap<>();
+        error.put("timestamp", LocalDateTime.now());
+        error.put("status", HttpStatus.NOT_FOUND.value());
+        error.put("error", "Not Found");
+        error.put("message", ex.getMessage());
+        return new ResponseEntity<>(error, HttpStatus.NOT_FOUND);
     }
 
     //Handle all other exceptions
     @ExceptionHandler(Exception.class)
     public ResponseEntity<Map<String, Object>> handleGlobalException(Exception ex) {
-
-
-        return new ResponseEntity<>(returnMapObject(ex), HttpStatus.BAD_REQUEST);
-    }
-
-    private Map<String, Object> returnMapObject(Exception ex) {
         Map<String, Object> error = new HashMap<>();
         error.put("timestamp", LocalDateTime.now());
-        error.put("status", HttpStatus.NOT_FOUND.value());
-        error.put("error", "Not Found");
-        error.put("message", "404 (Bad Request)");
-        return error;
+        error.put("status", HttpStatus.BAD_REQUEST.value());
+        error.put("error", "Internal Server Error");
+        error.put("message", ex.getMessage());
+
+        return new ResponseEntity<>(error, HttpStatus.BAD_REQUEST);
     }
 }

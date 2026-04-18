@@ -1,13 +1,18 @@
 package engine;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import jakarta.persistence.*;
 import jakarta.validation.constraints.*;
+import org.hibernate.annotations.Fetch;
+import org.hibernate.annotations.FetchMode;
 
 import java.util.List;
 
-
+@Entity
 public class Quiz {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
     @NotBlank
     private String title;
@@ -15,8 +20,11 @@ public class Quiz {
     private String text;
     @NotEmpty
     @Size(min=2)
+    @ElementCollection(fetch = FetchType.EAGER)
     private List<String> options;
 
+    @ElementCollection(fetch = FetchType.EAGER)
+    @Fetch(value = FetchMode.SUBSELECT)
     private List<Integer> answer;
 
     // getters & setters

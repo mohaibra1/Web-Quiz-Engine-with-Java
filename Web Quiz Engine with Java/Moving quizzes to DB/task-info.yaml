@@ -12,6 +12,12 @@ files:
   - name: test/tests/WebQuizEngineTest.java
     visible: true
     learner_created: false
+  - name: src/engine/repository/QuizRepository.java
+    visible: true
+    learner_created: true
 feedback_link: https://hyperskill.org/projects/91/stages/507/implement#comment
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sat, 18 Apr 2026 20:03:56 UTC"
 record: -1

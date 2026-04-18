@@ -3,7 +3,7 @@ hyperskill_project:
   ide_files: https://hyperskill.org/api/projects/91/additional-files/additional_files.json
   is_template_based: false
   use_ide: true
-update_date: "Mon, 13 Apr 2026 21:21:05 UTC"
+update_date: "Sat, 18 Apr 2026 18:20:26 UTC"
 stages:
   - id: 504
     step: 8252
@@ -16,7 +16,7 @@ stages:
     is_completed: true
   - id: 507
     step: 8255
-    is_completed: false
+    is_completed: true
   - id: 508
     step: 8256
     is_completed: false
@@ -73,6 +73,8 @@ topics:
       theory_id: 7834
     - title: Postman
       theory_id: 8512
+    - title: "How the web works: clients, servers, and browsers"
+      theory_id: 52811
     - title: Introduction to Java
       theory_id: 38627
     - title: "Basic literals: numbers, strings and characters"
@@ -193,14 +195,14 @@ topics:
       theory_id: 9831
     - title: JSON
       theory_id: 6854
-    - title: Introduction to API
-      theory_id: 17007
     - title: Simplistic hash functions
       theory_id: 40136
     - title: Hash function
       theory_id: 30143
     - title: Hash table
       theory_id: 13054
+    - title: Introduction to API
+      theory_id: 17007
     - title: Jackson
       theory_id: 21027
     - title: Getting data from REST
