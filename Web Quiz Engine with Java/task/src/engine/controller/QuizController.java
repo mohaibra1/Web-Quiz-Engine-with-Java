@@ -1,11 +1,17 @@
 package engine.controller;
 
-import engine.ResourcesNotFoundException;
+import engine.QuizCompletionRepository;
+import engine.exception.ResourcesNotFoundException;
+import engine.dto.QuizCompletionResponse;
 import engine.model.AnswerRequest;
 import engine.model.Quiz;
+import engine.model.QuizCompletion;
 import engine.model.QuizResult;
 import engine.repository.QuizRepository;
 import jakarta.validation.Valid;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.web.PageableDefault;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.Authentication;
@@ -20,9 +26,11 @@ import java.util.List;
 @Validated
 public class QuizController {
     private final QuizRepository quizRepository;
+    private final QuizCompletionRepository completionRepository;
 
-    public QuizController(QuizRepository quizRepository) {
+    public QuizController(QuizRepository quizRepository, QuizCompletionRepository completionRepository) {
         this.quizRepository = quizRepository;
+        this.completionRepository = completionRepository;
     }
 
     // CREATE QUIZ
@@ -35,8 +43,8 @@ public class QuizController {
 
     // GET ALL QUIZZES
     @GetMapping
-    public ResponseEntity<List<Quiz>> getAllQuizzes() {
-        return ResponseEntity.ok(quizRepository.findAll()); // quizzes.getQuizzes());
+    public ResponseEntity<Page<Quiz>> getAllQuizzes(@PageableDefault(size = 10) Pageable pageable) {
+        return ResponseEntity.ok(quizRepository.findAll(pageable)); // quizzes.getQuizzes());
     }
 
     @GetMapping("/{id}")
@@ -48,11 +56,30 @@ public class QuizController {
         return ResponseEntity.ok(quiz);
     }
 
+    @GetMapping("/completed")
+    public ResponseEntity<Page<QuizCompletionResponse>> getCompletedQuizzes(
+            @PageableDefault(size = 10) Pageable pageable,
+            Authentication auth) {
+
+        Page<QuizCompletion> page =
+                completionRepository.findByUserEmailOrderByCompletedAtDesc(
+                        auth.getName(), pageable
+                );
+
+        Page<QuizCompletionResponse> response =
+                page.map(c -> new QuizCompletionResponse(
+                        c.getQuizId(),
+                        c.getCompletedAt()
+                ));
+
+        return ResponseEntity.ok(response);
+    }
 
     @PostMapping("/{id}/solve")
     public ResponseEntity<QuizResult> solveQuiz(
             @PathVariable int id,
-            @RequestBody AnswerRequest request) { // Use the wrapper here
+            @RequestBody AnswerRequest request,
+            Authentication auth) { // Use the wrapper here
 
         Quiz quiz = quizRepository.findById(id)
                 .orElseThrow(() -> new ResourcesNotFoundException("Not Found")); // quizzes.findById(id);
@@ -78,6 +105,9 @@ public class QuizController {
 
 
         if (isCorrect) {
+            completionRepository.save(
+                    new QuizCompletion(quiz.getId(), auth.getName())
+            );
             return ResponseEntity.ok(new QuizResult(true, "Congratulations, you're right!"));
         }
 

@@ -8,7 +8,4 @@ import java.util.List;
 
 @Repository
 public interface QuizRepository extends JpaRepository<Quiz, Integer> {
-    //public Quiz findById(int id);
-    //public Quiz save(Quiz quiz);
-    //public List<Quiz> findAll();
 }
