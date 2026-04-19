@@ -12,6 +12,48 @@ files:
   - name: test/tests/WebQuizEngineTest.java
     visible: true
     learner_created: false
+  - name: src/engine/security/SecurityConfig.java
+    visible: true
+    learner_created: true
+  - name: src/engine/controller/AuthController.java
+    visible: true
+    learner_created: true
+  - name: src/engine/model/AppUser.java
+    visible: true
+    learner_created: true
+  - name: src/engine/repository/AppUserRepository.java
+    visible: true
+    learner_created: true
+  - name: src/engine/service/AppUserAdapter.java
+    visible: true
+    learner_created: true
+  - name: src/engine/service/AppUserDetailsServiceImpl.java
+    visible: true
+    learner_created: true
+  - name: src/engine/controller/QuizController.java
+    visible: true
+    learner_created: true
+  - name: src/engine/model/QuizResult.java
+    visible: true
+    learner_created: true
+  - name: src/engine/model/Quizzes.java
+    visible: true
+    learner_created: true
+  - name: src/engine/model/AnswerRequest.java
+    visible: true
+    learner_created: true
+  - name: src/engine/exception/ResourcesNotFoundException.java
+    visible: true
+    learner_created: true
+  - name: src/engine/exception/GlobalExceptionHandler.java
+    visible: true
+    learner_created: true
+  - name: src/engine/model/Quiz.java
+    visible: true
+    learner_created: true
 feedback_link: https://hyperskill.org/projects/91/stages/508/implement#comment
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sun, 19 Apr 2026 03:47:25 UTC"
 record: -1

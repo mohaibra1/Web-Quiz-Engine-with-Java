@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tests.WebQuizEngineTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-04-18T20:03:20.935Z" hostname="MOHAIBRA" time="35.331">
+<testsuite name="tests.WebQuizEngineTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-04-19T03:46:25.793Z" hostname="MOHAIBRA" time="59.127">
   <properties/>
-  <testcase name="start" classname="tests.WebQuizEngineTest" time="35.331"/>
+  <testcase name="start" classname="tests.WebQuizEngineTest" time="59.127"/>
   <system-out><![CDATA[?[1;31m
 Start test 1?[0m
 ?[0;34m
@@ -14,24 +14,24 @@ Start test 1?[0m
 ?[0m?[0;34m
 ?[0m?[0;34m :: Spring Boot ::                (v3.5.9)
 ?[0m?[0;34m
-?[0m?[0;34m2026-04-18T22:03:22.109+02:00  INFO 11800 --- [    Test worker] engine.WebQuizEngine                     : Starting WebQuizEngine using Java 23.0.2 with PID 11800 (started by 32492 in C:\Users\32492\IdeaProjects\Web Quiz Engine with Java\Web Quiz Engine with Java\task)
-?[0m?[0;34m2026-04-18T22:03:22.114+02:00  INFO 11800 --- [    Test worker] engine.WebQuizEngine                     : No active profile set, falling back to 1 default profile: "default"
-?[0m?[0;34m2026-04-18T22:03:24.003+02:00  INFO 11800 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-?[0m?[0;34m2026-04-18T22:03:24.082+02:00  INFO 11800 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58 ms. Found 1 JPA repository interface.
-?[0m?[0;34m2026-04-18T22:03:25.028+02:00  INFO 11800 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8889 (http)
-?[0m?[0;34m2026-04-18T22:03:25.060+02:00  INFO 11800 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-?[0m?[0;34m2026-04-18T22:03:25.060+02:00  INFO 11800 --- [    Test worker] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.50]
-?[0m?[0;34m2026-04-18T22:03:25.150+02:00  INFO 11800 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-?[0m?[0;34m2026-04-18T22:03:25.153+02:00  INFO 11800 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2956 ms
-?[0m?[0;34m2026-04-18T22:03:25.645+02:00  INFO 11800 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-?[0m?[0;34m2026-04-18T22:03:25.803+02:00  INFO 11800 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.39.Final
-?[0m?[0;34m2026-04-18T22:03:25.884+02:00  INFO 11800 --- [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-?[0m?[0;34m2026-04-18T22:03:26.426+02:00  INFO 11800 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-?[0m?[0;34m2026-04-18T22:03:26.488+02:00  INFO 11800 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-?[0m?[0;34m2026-04-18T22:03:26.860+02:00  INFO 11800 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:file:../quizdb user=SA
-?[0m?[0;34m2026-04-18T22:03:26.864+02:00  INFO 11800 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-?[0m?[0;34m2026-04-18T22:03:26.923+02:00  WARN 11800 --- [    Test worker] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-?[0m?[0;34m2026-04-18T22:03:26.960+02:00  INFO 11800 --- [    Test worker] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+?[0m?[0;34m2026-04-19T05:46:27.219+02:00  INFO 22796 --- [    Test worker] engine.WebQuizEngine                     : Starting WebQuizEngine using Java 23.0.2 with PID 22796 (started by 32492 in C:\Users\32492\IdeaProjects\Web Quiz Engine with Java\Web Quiz Engine with Java\task)
+?[0m?[0;34m2026-04-19T05:46:27.226+02:00  INFO 22796 --- [    Test worker] engine.WebQuizEngine                     : No active profile set, falling back to 1 default profile: "default"
+?[0m?[0;34m2026-04-19T05:46:29.140+02:00  INFO 22796 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+?[0m?[0;34m2026-04-19T05:46:29.234+02:00  INFO 22796 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 77 ms. Found 2 JPA repository interfaces.
+?[0m?[0;34m2026-04-19T05:46:30.275+02:00  INFO 22796 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8889 (http)
+?[0m?[0;34m2026-04-19T05:46:30.300+02:00  INFO 22796 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+?[0m?[0;34m2026-04-19T05:46:30.300+02:00  INFO 22796 --- [    Test worker] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.50]
+?[0m?[0;34m2026-04-19T05:46:30.378+02:00  INFO 22796 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+?[0m?[0;34m2026-04-19T05:46:30.380+02:00  INFO 22796 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3051 ms
+?[0m?[0;34m2026-04-19T05:46:30.893+02:00  INFO 22796 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+?[0m?[0;34m2026-04-19T05:46:31.036+02:00  INFO 22796 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.39.Final
+?[0m?[0;34m2026-04-19T05:46:31.111+02:00  INFO 22796 --- [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+?[0m?[0;34m2026-04-19T05:46:31.781+02:00  INFO 22796 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+?[0m?[0;34m2026-04-19T05:46:31.824+02:00  INFO 22796 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+?[0m?[0;34m2026-04-19T05:46:32.128+02:00  INFO 22796 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:file:../quizdb user=SA
+?[0m?[0;34m2026-04-19T05:46:32.131+02:00  INFO 22796 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+?[0m?[0;34m2026-04-19T05:46:32.182+02:00  WARN 22796 --- [    Test worker] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+?[0m?[0;34m2026-04-19T05:46:32.221+02:00  INFO 22796 --- [    Test worker] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 ?[0m?[0;34m	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 ?[0m?[0;34m	Database driver: undefined/unknown
 ?[0m?[0;34m	Database version: 2.3.232
@@ -39,16 +39,17 @@ Start test 1?[0m
 ?[0m?[0;34m	Isolation level: undefined/unknown
 ?[0m?[0;34m	Minimum pool size: undefined/unknown
 ?[0m?[0;34m	Maximum pool size: undefined/unknown
-?[0m?[0;34m2026-04-18T22:03:28.188+02:00  INFO 11800 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-?[0m?[0;34m2026-04-18T22:03:28.273+02:00  INFO 11800 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-?[0m?[0;34m2026-04-18T22:03:28.770+02:00  WARN 11800 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-?[0m?[0;34m2026-04-18T22:03:29.571+02:00  INFO 11800 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:../quizdb'
-?[0m?[0;34m2026-04-18T22:03:29.614+02:00  INFO 11800 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoints beneath base path '/actuator'
-?[0m?[0;34m2026-04-18T22:03:29.723+02:00  INFO 11800 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8889 (http) with context path '/'
-?[0m?[0;34m2026-04-18T22:03:29.738+02:00  INFO 11800 --- [    Test worker] engine.WebQuizEngine                     : Started WebQuizEngine in 8.334 seconds (process running for 9.665)
-?[0;34m2026-04-18T22:03:30.231+02:00  INFO 11800 --- [nio-8889-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-?[0m?[0;34m2026-04-18T22:03:30.231+02:00  INFO 11800 --- [nio-8889-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-?[0m?[0;34m2026-04-18T22:03:30.234+02:00  INFO 11800 --- [nio-8889-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+?[0m?[0;34m2026-04-19T05:46:33.586+02:00  INFO 22796 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+?[0m?[0;34m2026-04-19T05:46:33.677+02:00  INFO 22796 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+?[0m?[0;34m2026-04-19T05:46:34.263+02:00  WARN 22796 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+?[0m?[0;34m2026-04-19T05:46:34.317+02:00  INFO 22796 --- [    Test worker] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name appUserDetailsServiceImpl
+?[0m?[0;34m2026-04-19T05:46:34.870+02:00  INFO 22796 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoints beneath base path '/actuator'
+?[0m?[0;34m2026-04-19T05:46:35.330+02:00  INFO 22796 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:../quizdb'
+?[0m?[0;34m2026-04-19T05:46:35.510+02:00  INFO 22796 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8889 (http) with context path '/'
+?[0m?[0;34m2026-04-19T05:46:35.527+02:00  INFO 22796 --- [    Test worker] engine.WebQuizEngine                     : Started WebQuizEngine in 8.988 seconds (process running for 10.645)
+?[0;34m2026-04-19T05:46:36.039+02:00  INFO 22796 --- [nio-8889-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+?[0m?[0;34m2026-04-19T05:46:36.040+02:00  INFO 22796 --- [nio-8889-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+?[0m?[0;34m2026-04-19T05:46:36.041+02:00  INFO 22796 --- [nio-8889-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
 ?[0m?[1;31m
 Start test 2?[0m
 ?[1;31m
@@ -85,57 +86,8 @@ Start test 17?[0m
 Start test 18?[0m
 ?[1;31m
 Start test 19?[0m
-?[0;34m2026-04-18T22:03:31.584+02:00  INFO 11800 --- [       Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-?[0;34m2026-04-18T22:03:31.595+02:00  INFO 11800 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-?[0m?[0;34m2026-04-18T22:03:31.601+02:00  INFO 11800 --- [       Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-?[0m?[0;34m2026-04-18T22:03:31.605+02:00  INFO 11800 --- [       Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-?[0m?[0;34m2026-04-18T22:03:31.639+02:00  INFO 11800 --- [       Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-?[0;34m
-?[0m?[0;34m  .   ____          _            __ _ _
-?[0m?[0;34m /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
-?[0m?[0;34m( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
-?[0m?[0;34m \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
-?[0m?[0;34m  '  |____| .__|_| |_|_| |_\__, | / / / /
-?[0m?[0;34m =========|_|==============|___/=/_/_/_/
-?[0m?[0;34m
-?[0m?[0;34m :: Spring Boot ::                (v3.5.9)
-?[0m?[0;34m
-?[0m?[0;34m2026-04-18T22:03:42.275+02:00  INFO 11800 --- [    Test worker] engine.WebQuizEngine                     : Starting WebQuizEngine using Java 23.0.2 with PID 11800 (started by 32492 in C:\Users\32492\IdeaProjects\Web Quiz Engine with Java\Web Quiz Engine with Java\task)
-?[0m?[0;34m2026-04-18T22:03:42.275+02:00  INFO 11800 --- [    Test worker] engine.WebQuizEngine                     : No active profile set, falling back to 1 default profile: "default"
-?[0m?[0;34m2026-04-18T22:03:42.699+02:00  INFO 11800 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-?[0m?[0;34m2026-04-18T22:03:42.711+02:00  INFO 11800 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interface.
-?[0m?[0;34m2026-04-18T22:03:42.786+02:00  INFO 11800 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8889 (http)
-?[0m?[0;34m2026-04-18T22:03:42.788+02:00  INFO 11800 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-?[0m?[0;34m2026-04-18T22:03:42.788+02:00  INFO 11800 --- [    Test worker] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.50]
-?[0m?[0;34m2026-04-18T22:03:42.816+02:00  INFO 11800 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-?[0m?[0;34m2026-04-18T22:03:42.816+02:00  INFO 11800 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 541 ms
-?[0m?[0;34m2026-04-18T22:03:42.898+02:00  INFO 11800 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-?[0m?[0;34m2026-04-18T22:03:42.902+02:00  INFO 11800 --- [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-?[0m?[0;34m2026-04-18T22:03:42.914+02:00  INFO 11800 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-?[0m?[0;34m2026-04-18T22:03:42.914+02:00  INFO 11800 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
-?[0m?[0;34m2026-04-18T22:03:42.940+02:00  INFO 11800 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection conn10: url=jdbc:h2:file:../quizdb user=SA
-?[0m?[0;34m2026-04-18T22:03:42.941+02:00  INFO 11800 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
-?[0m?[0;34m2026-04-18T22:03:42.943+02:00  WARN 11800 --- [    Test worker] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-?[0m?[0;34m2026-04-18T22:03:42.944+02:00  INFO 11800 --- [    Test worker] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-?[0m?[0;34m	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
-?[0m?[0;34m	Database driver: undefined/unknown
-?[0m?[0;34m	Database version: 2.3.232
-?[0m?[0;34m	Autocommit mode: undefined/unknown
-?[0m?[0;34m	Isolation level: undefined/unknown
-?[0m?[0;34m	Minimum pool size: undefined/unknown
-?[0m?[0;34m	Maximum pool size: undefined/unknown
-?[0m?[0;34m2026-04-18T22:03:42.988+02:00  INFO 11800 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-?[0m?[0;34m2026-04-18T22:03:43.006+02:00  INFO 11800 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-?[0m?[0;34m2026-04-18T22:03:43.057+02:00  WARN 11800 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-?[0m?[0;34m2026-04-18T22:03:43.227+02:00  INFO 11800 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:../quizdb'
-?[0m?[0;34m2026-04-18T22:03:43.233+02:00  INFO 11800 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoints beneath base path '/actuator'
-?[0m?[0;34m2026-04-18T22:03:43.255+02:00  INFO 11800 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8889 (http) with context path '/'
-?[0m?[0;34m2026-04-18T22:03:43.263+02:00  INFO 11800 --- [    Test worker] engine.WebQuizEngine                     : Started WebQuizEngine in 1.016 seconds (process running for 23.189)
-?[0m?[1;31m
+?[1;31m
 Start test 20?[0m
-?[0;34m2026-04-18T22:03:43.283+02:00  INFO 11800 --- [nio-8889-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-?[0m?[0;34m2026-04-18T22:03:43.283+02:00  INFO 11800 --- [nio-8889-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-?[0m?[0;34m2026-04-18T22:03:43.285+02:00  INFO 11800 --- [nio-8889-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
 ?[1;31m
 Start test 21?[0m
 ?[1;31m
@@ -180,8 +132,58 @@ Start test 40?[0m
 Start test 41?[0m
 ?[1;31m
 Start test 42?[0m
-?[1;31m
+?[0;34m2026-04-19T05:46:39.838+02:00  INFO 22796 --- [       Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+?[0;34m2026-04-19T05:46:39.848+02:00  INFO 22796 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+?[0m?[0;34m2026-04-19T05:46:39.855+02:00  INFO 22796 --- [       Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+?[0m?[0;34m2026-04-19T05:46:39.858+02:00  INFO 22796 --- [       Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+?[0m?[0;34m2026-04-19T05:46:40.066+02:00  INFO 22796 --- [       Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+?[0;34m
+?[0m?[0;34m  .   ____          _            __ _ _
+?[0m?[0;34m /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+?[0m?[0;34m( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+?[0m?[0;34m \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+?[0m?[0;34m  '  |____| .__|_| |_|_| |_\__, | / / / /
+?[0m?[0;34m =========|_|==============|___/=/_/_/_/
+?[0m?[0;34m
+?[0m?[0;34m :: Spring Boot ::                (v3.5.9)
+?[0m?[0;34m
+?[0m?[0;34m2026-04-19T05:46:50.268+02:00  INFO 22796 --- [    Test worker] engine.WebQuizEngine                     : Starting WebQuizEngine using Java 23.0.2 with PID 22796 (started by 32492 in C:\Users\32492\IdeaProjects\Web Quiz Engine with Java\Web Quiz Engine with Java\task)
+?[0m?[0;34m2026-04-19T05:46:50.269+02:00  INFO 22796 --- [    Test worker] engine.WebQuizEngine                     : No active profile set, falling back to 1 default profile: "default"
+?[0m?[0;34m2026-04-19T05:46:50.753+02:00  INFO 22796 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+?[0m?[0;34m2026-04-19T05:46:50.771+02:00  INFO 22796 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 2 JPA repository interfaces.
+?[0m?[0;34m2026-04-19T05:46:50.870+02:00  INFO 22796 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8889 (http)
+?[0m?[0;34m2026-04-19T05:46:50.872+02:00  INFO 22796 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+?[0m?[0;34m2026-04-19T05:46:50.873+02:00  INFO 22796 --- [    Test worker] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.50]
+?[0m?[0;34m2026-04-19T05:46:50.900+02:00  INFO 22796 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+?[0m?[0;34m2026-04-19T05:46:50.901+02:00  INFO 22796 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 627 ms
+?[0m?[0;34m2026-04-19T05:46:50.983+02:00  INFO 22796 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+?[0m?[0;34m2026-04-19T05:46:50.987+02:00  INFO 22796 --- [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+?[0m?[0;34m2026-04-19T05:46:50.999+02:00  INFO 22796 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+?[0m?[0;34m2026-04-19T05:46:51.001+02:00  INFO 22796 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+?[0m?[0;34m2026-04-19T05:46:51.031+02:00  INFO 22796 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection conn10: url=jdbc:h2:file:../quizdb user=SA
+?[0m?[0;34m2026-04-19T05:46:51.032+02:00  INFO 22796 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+?[0m?[0;34m2026-04-19T05:46:51.032+02:00  WARN 22796 --- [    Test worker] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+?[0m?[0;34m2026-04-19T05:46:51.034+02:00  INFO 22796 --- [    Test worker] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+?[0m?[0;34m	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+?[0m?[0;34m	Database driver: undefined/unknown
+?[0m?[0;34m	Database version: 2.3.232
+?[0m?[0;34m	Autocommit mode: undefined/unknown
+?[0m?[0;34m	Isolation level: undefined/unknown
+?[0m?[0;34m	Minimum pool size: undefined/unknown
+?[0m?[0;34m	Maximum pool size: undefined/unknown
+?[0m?[0;34m2026-04-19T05:46:51.084+02:00  INFO 22796 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+?[0m?[0;34m2026-04-19T05:46:51.101+02:00  INFO 22796 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+?[0m?[0;34m2026-04-19T05:46:51.157+02:00  WARN 22796 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+?[0m?[0;34m2026-04-19T05:46:51.168+02:00  INFO 22796 --- [    Test worker] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name appUserDetailsServiceImpl
+?[0m?[0;34m2026-04-19T05:46:51.298+02:00  INFO 22796 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoints beneath base path '/actuator'
+?[0m?[0;34m2026-04-19T05:46:51.380+02:00  INFO 22796 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:../quizdb'
+?[0m?[0;34m2026-04-19T05:46:51.407+02:00  INFO 22796 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8889 (http) with context path '/'
+?[0m?[0;34m2026-04-19T05:46:51.413+02:00  INFO 22796 --- [    Test worker] engine.WebQuizEngine                     : Started WebQuizEngine in 1.174 seconds (process running for 26.531)
+?[0m?[1;31m
 Start test 43?[0m
+?[0;34m2026-04-19T05:46:51.427+02:00  INFO 22796 --- [nio-8889-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+?[0m?[0;34m2026-04-19T05:46:51.428+02:00  INFO 22796 --- [nio-8889-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+?[0m?[0;34m2026-04-19T05:46:51.429+02:00  INFO 22796 --- [nio-8889-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
 ?[1;31m
 Start test 44?[0m
 ?[1;31m
@@ -342,11 +344,59 @@ Start test 121?[0m
 Start test 122?[0m
 ?[1;31m
 Start test 123?[0m
-?[0;34m2026-04-18T22:03:44.875+02:00  INFO 11800 --- [       Thread-7] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-?[0;34m2026-04-18T22:03:44.882+02:00  INFO 11800 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-?[0m?[0;34m2026-04-18T22:03:44.888+02:00  INFO 11800 --- [       Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-?[0m?[0;34m2026-04-18T22:03:44.889+02:00  INFO 11800 --- [       Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
-?[0m?[0;34m2026-04-18T22:03:45.096+02:00  INFO 11800 --- [       Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+?[1;31m
+Start test 124?[0m
+?[1;31m
+Start test 125?[0m
+?[1;31m
+Start test 126?[0m
+?[1;31m
+Start test 127?[0m
+?[1;31m
+Start test 128?[0m
+?[1;31m
+Start test 129?[0m
+?[1;31m
+Start test 130?[0m
+?[1;31m
+Start test 131?[0m
+?[1;31m
+Start test 132?[0m
+?[1;31m
+Start test 133?[0m
+?[1;31m
+Start test 134?[0m
+?[1;31m
+Start test 135?[0m
+?[1;31m
+Start test 136?[0m
+?[1;31m
+Start test 137?[0m
+?[1;31m
+Start test 138?[0m
+?[1;31m
+Start test 139?[0m
+?[1;31m
+Start test 140?[0m
+?[1;31m
+Start test 141?[0m
+?[1;31m
+Start test 142?[0m
+?[1;31m
+Start test 143?[0m
+?[1;31m
+Start test 144?[0m
+?[1;31m
+Start test 145?[0m
+?[1;31m
+Start test 146?[0m
+?[1;31m
+Start test 147?[0m
+?[0;34m2026-04-19T05:46:59.550+02:00  INFO 22796 --- [       Thread-7] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+?[0;34m2026-04-19T05:46:59.561+02:00  INFO 22796 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+?[0m?[0;34m2026-04-19T05:46:59.566+02:00  INFO 22796 --- [       Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+?[0m?[0;34m2026-04-19T05:46:59.567+02:00  INFO 22796 --- [       Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+?[0m?[0;34m2026-04-19T05:46:59.591+02:00  INFO 22796 --- [       Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
 ?[0;34m
 ?[0m?[0;34m  .   ____          _            __ _ _
 ?[0m?[0;34m /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -357,23 +407,23 @@ Start test 123?[0m
 ?[0m?[0;34m
 ?[0m?[0;34m :: Spring Boot ::                (v3.5.9)
 ?[0m?[0;34m
-?[0m?[0;34m2026-04-18T22:03:55.470+02:00  INFO 11800 --- [    Test worker] engine.WebQuizEngine                     : Starting WebQuizEngine using Java 23.0.2 with PID 11800 (started by 32492 in C:\Users\32492\IdeaProjects\Web Quiz Engine with Java\Web Quiz Engine with Java\task)
-?[0m?[0;34m2026-04-18T22:03:55.471+02:00  INFO 11800 --- [    Test worker] engine.WebQuizEngine                     : No active profile set, falling back to 1 default profile: "default"
-?[0m?[0;34m2026-04-18T22:03:55.748+02:00  INFO 11800 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-?[0m?[0;34m2026-04-18T22:03:55.757+02:00  INFO 11800 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 1 JPA repository interface.
-?[0m?[0;34m2026-04-18T22:03:55.814+02:00  INFO 11800 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8889 (http)
-?[0m?[0;34m2026-04-18T22:03:55.816+02:00  INFO 11800 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-?[0m?[0;34m2026-04-18T22:03:55.816+02:00  INFO 11800 --- [    Test worker] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.50]
-?[0m?[0;34m2026-04-18T22:03:55.841+02:00  INFO 11800 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-?[0m?[0;34m2026-04-18T22:03:55.841+02:00  INFO 11800 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 369 ms
-?[0m?[0;34m2026-04-18T22:03:55.892+02:00  INFO 11800 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-?[0m?[0;34m2026-04-18T22:03:55.895+02:00  INFO 11800 --- [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-?[0m?[0;34m2026-04-18T22:03:55.905+02:00  INFO 11800 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-?[0m?[0;34m2026-04-18T22:03:55.906+02:00  INFO 11800 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
-?[0m?[0;34m2026-04-18T22:03:55.918+02:00  INFO 11800 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection conn20: url=jdbc:h2:file:../quizdb user=SA
-?[0m?[0;34m2026-04-18T22:03:55.919+02:00  INFO 11800 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
-?[0m?[0;34m2026-04-18T22:03:55.920+02:00  WARN 11800 --- [    Test worker] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-?[0m?[0;34m2026-04-18T22:03:55.921+02:00  INFO 11800 --- [    Test worker] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+?[0m?[0;34m2026-04-19T05:47:09.963+02:00  INFO 22796 --- [    Test worker] engine.WebQuizEngine                     : Starting WebQuizEngine using Java 23.0.2 with PID 22796 (started by 32492 in C:\Users\32492\IdeaProjects\Web Quiz Engine with Java\Web Quiz Engine with Java\task)
+?[0m?[0;34m2026-04-19T05:47:09.963+02:00  INFO 22796 --- [    Test worker] engine.WebQuizEngine                     : No active profile set, falling back to 1 default profile: "default"
+?[0m?[0;34m2026-04-19T05:47:10.258+02:00  INFO 22796 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+?[0m?[0;34m2026-04-19T05:47:10.273+02:00  INFO 22796 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 2 JPA repository interfaces.
+?[0m?[0;34m2026-04-19T05:47:10.368+02:00  INFO 22796 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8889 (http)
+?[0m?[0;34m2026-04-19T05:47:10.369+02:00  INFO 22796 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+?[0m?[0;34m2026-04-19T05:47:10.369+02:00  INFO 22796 --- [    Test worker] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.50]
+?[0m?[0;34m2026-04-19T05:47:10.394+02:00  INFO 22796 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+?[0m?[0;34m2026-04-19T05:47:10.395+02:00  INFO 22796 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 429 ms
+?[0m?[0;34m2026-04-19T05:47:10.457+02:00  INFO 22796 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+?[0m?[0;34m2026-04-19T05:47:10.461+02:00  INFO 22796 --- [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+?[0m?[0;34m2026-04-19T05:47:10.473+02:00  INFO 22796 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+?[0m?[0;34m2026-04-19T05:47:10.474+02:00  INFO 22796 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+?[0m?[0;34m2026-04-19T05:47:10.486+02:00  INFO 22796 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection conn20: url=jdbc:h2:file:../quizdb user=SA
+?[0m?[0;34m2026-04-19T05:47:10.486+02:00  INFO 22796 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+?[0m?[0;34m2026-04-19T05:47:10.486+02:00  WARN 22796 --- [    Test worker] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+?[0m?[0;34m2026-04-19T05:47:10.487+02:00  INFO 22796 --- [    Test worker] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 ?[0m?[0;34m	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-3)']
 ?[0m?[0;34m	Database driver: undefined/unknown
 ?[0m?[0;34m	Database version: 2.3.232
@@ -381,26 +431,121 @@ Start test 123?[0m
 ?[0m?[0;34m	Isolation level: undefined/unknown
 ?[0m?[0;34m	Minimum pool size: undefined/unknown
 ?[0m?[0;34m	Maximum pool size: undefined/unknown
-?[0m?[0;34m2026-04-18T22:03:55.960+02:00  INFO 11800 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-?[0m?[0;34m2026-04-18T22:03:55.964+02:00  INFO 11800 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-?[0m?[0;34m2026-04-18T22:03:56.003+02:00  WARN 11800 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-?[0m?[0;34m2026-04-18T22:03:56.127+02:00  INFO 11800 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:../quizdb'
-?[0m?[0;34m2026-04-18T22:03:56.135+02:00  INFO 11800 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoints beneath base path '/actuator'
-?[0m?[0;34m2026-04-18T22:03:56.171+02:00  INFO 11800 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8889 (http) with context path '/'
-?[0m?[0;34m2026-04-18T22:03:56.176+02:00  INFO 11800 --- [    Test worker] engine.WebQuizEngine                     : Started WebQuizEngine in 0.733 seconds (process running for 36.102)
+?[0m?[0;34m2026-04-19T05:47:10.539+02:00  INFO 22796 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+?[0m?[0;34m2026-04-19T05:47:10.543+02:00  INFO 22796 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+?[0m?[0;34m2026-04-19T05:47:10.606+02:00  WARN 22796 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+?[0m?[0;34m2026-04-19T05:47:10.614+02:00  INFO 22796 --- [    Test worker] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name appUserDetailsServiceImpl
+?[0m?[0;34m2026-04-19T05:47:10.741+02:00  INFO 22796 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoints beneath base path '/actuator'
+?[0m?[0;34m2026-04-19T05:47:10.826+02:00  INFO 22796 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:../quizdb'
+?[0m?[0;34m2026-04-19T05:47:10.858+02:00  INFO 22796 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8889 (http) with context path '/'
+?[0m?[0;34m2026-04-19T05:47:10.865+02:00  INFO 22796 --- [    Test worker] engine.WebQuizEngine                     : Started WebQuizEngine in 0.923 seconds (process running for 45.984)
 ?[0m?[1;31m
-Start test 124?[0m
-?[0;34m2026-04-18T22:03:56.188+02:00  INFO 11800 --- [nio-8889-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-?[0m?[0;34m2026-04-18T22:03:56.189+02:00  INFO 11800 --- [nio-8889-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-?[0m?[0;34m2026-04-18T22:03:56.189+02:00  INFO 11800 --- [nio-8889-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+Start test 148?[0m
+?[0;34m2026-04-19T05:47:10.879+02:00  INFO 22796 --- [nio-8889-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+?[0m?[0;34m2026-04-19T05:47:10.879+02:00  INFO 22796 --- [nio-8889-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+?[0m?[0;34m2026-04-19T05:47:10.880+02:00  INFO 22796 --- [nio-8889-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
 ?[1;31m
-Start test 125?[0m
+Start test 149?[0m
 ?[1;31m
-Start test 126?[0m
+Start test 150?[0m
 ?[1;31m
-Start test 127?[0m
+Start test 151?[0m
 ?[1;31m
-Start test 128?[0m
+Start test 152?[0m
+?[1;31m
+Start test 153?[0m
+?[1;31m
+Start test 154?[0m
+?[1;31m
+Start test 155?[0m
+?[1;31m
+Start test 156?[0m
+?[1;31m
+Start test 157?[0m
+?[1;31m
+Start test 158?[0m
+?[1;31m
+Start test 159?[0m
+?[1;31m
+Start test 160?[0m
+?[1;31m
+Start test 161?[0m
+?[1;31m
+Start test 162?[0m
+?[1;31m
+Start test 163?[0m
+?[1;31m
+Start test 164?[0m
+?[1;31m
+Start test 165?[0m
+?[1;31m
+Start test 166?[0m
+?[1;31m
+Start test 167?[0m
+?[1;31m
+Start test 168?[0m
+?[1;31m
+Start test 169?[0m
+?[0;34m2026-04-19T05:47:13.000+02:00  INFO 22796 --- [       Thread-9] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+?[0;34m2026-04-19T05:47:13.010+02:00  INFO 22796 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+?[0m?[0;34m2026-04-19T05:47:13.013+02:00  INFO 22796 --- [       Thread-9] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+?[0m?[0;34m2026-04-19T05:47:13.013+02:00  INFO 22796 --- [       Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+?[0m?[0;34m2026-04-19T05:47:13.037+02:00  INFO 22796 --- [       Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+?[0;34m
+?[0m?[0;34m  .   ____          _            __ _ _
+?[0m?[0;34m /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+?[0m?[0;34m( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+?[0m?[0;34m \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+?[0m?[0;34m  '  |____| .__|_| |_|_| |_\__, | / / / /
+?[0m?[0;34m =========|_|==============|___/=/_/_/_/
+?[0m?[0;34m
+?[0m?[0;34m :: Spring Boot ::                (v3.5.9)
+?[0m?[0;34m
+?[0m?[0;34m2026-04-19T05:47:23.644+02:00  INFO 22796 --- [    Test worker] engine.WebQuizEngine                     : Starting WebQuizEngine using Java 23.0.2 with PID 22796 (started by 32492 in C:\Users\32492\IdeaProjects\Web Quiz Engine with Java\Web Quiz Engine with Java\task)
+?[0m?[0;34m2026-04-19T05:47:23.645+02:00  INFO 22796 --- [    Test worker] engine.WebQuizEngine                     : No active profile set, falling back to 1 default profile: "default"
+?[0m?[0;34m2026-04-19T05:47:23.887+02:00  INFO 22796 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+?[0m?[0;34m2026-04-19T05:47:23.899+02:00  INFO 22796 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 2 JPA repository interfaces.
+?[0m?[0;34m2026-04-19T05:47:23.969+02:00  INFO 22796 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8889 (http)
+?[0m?[0;34m2026-04-19T05:47:23.970+02:00  INFO 22796 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+?[0m?[0;34m2026-04-19T05:47:23.970+02:00  INFO 22796 --- [    Test worker] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.50]
+?[0m?[0;34m2026-04-19T05:47:23.994+02:00  INFO 22796 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+?[0m?[0;34m2026-04-19T05:47:23.995+02:00  INFO 22796 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 346 ms
+?[0m?[0;34m2026-04-19T05:47:24.061+02:00  INFO 22796 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+?[0m?[0;34m2026-04-19T05:47:24.065+02:00  INFO 22796 --- [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+?[0m?[0;34m2026-04-19T05:47:24.075+02:00  INFO 22796 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+?[0m?[0;34m2026-04-19T05:47:24.077+02:00  INFO 22796 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+?[0m?[0;34m2026-04-19T05:47:24.090+02:00  INFO 22796 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection conn30: url=jdbc:h2:file:../quizdb user=SA
+?[0m?[0;34m2026-04-19T05:47:24.090+02:00  INFO 22796 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+?[0m?[0;34m2026-04-19T05:47:24.092+02:00  WARN 22796 --- [    Test worker] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+?[0m?[0;34m2026-04-19T05:47:24.093+02:00  INFO 22796 --- [    Test worker] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+?[0m?[0;34m	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-4)']
+?[0m?[0;34m	Database driver: undefined/unknown
+?[0m?[0;34m	Database version: 2.3.232
+?[0m?[0;34m	Autocommit mode: undefined/unknown
+?[0m?[0;34m	Isolation level: undefined/unknown
+?[0m?[0;34m	Minimum pool size: undefined/unknown
+?[0m?[0;34m	Maximum pool size: undefined/unknown
+?[0m?[0;34m2026-04-19T05:47:24.135+02:00  INFO 22796 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+?[0m?[0;34m2026-04-19T05:47:24.144+02:00  INFO 22796 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+?[0m?[0;34m2026-04-19T05:47:24.203+02:00  WARN 22796 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+?[0m?[0;34m2026-04-19T05:47:24.211+02:00  INFO 22796 --- [    Test worker] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name appUserDetailsServiceImpl
+?[0m?[0;34m2026-04-19T05:47:24.329+02:00  INFO 22796 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoints beneath base path '/actuator'
+?[0m?[0;34m2026-04-19T05:47:24.426+02:00  INFO 22796 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:../quizdb'
+?[0m?[0;34m2026-04-19T05:47:24.453+02:00  INFO 22796 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8889 (http) with context path '/'
+?[0m?[0;34m2026-04-19T05:47:24.467+02:00  INFO 22796 --- [    Test worker] engine.WebQuizEngine                     : Started WebQuizEngine in 0.841 seconds (process running for 59.586)
+?[0m?[1;31m
+Start test 170?[0m
+?[0;34m2026-04-19T05:47:24.481+02:00  INFO 22796 --- [nio-8889-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+?[0m?[0;34m2026-04-19T05:47:24.481+02:00  INFO 22796 --- [nio-8889-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+?[0m?[0;34m2026-04-19T05:47:24.482+02:00  INFO 22796 --- [nio-8889-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+?[1;31m
+Start test 171?[0m
+?[1;31m
+Start test 172?[0m
+?[1;31m
+Start test 173?[0m
+?[1;31m
+Start test 174?[0m
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
